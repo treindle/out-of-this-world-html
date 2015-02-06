@@ -8,49 +8,74 @@ html {
 }
 body {
   max-width: 900px;
-  font-color: red;
-  background-image: url("https://assets.rbl.ms/195304/980x.jpg");
+  background-image: url("https://dailyoffice.files.wordpress.com/2013/12/starry-night.jpg");
+  background-attachment: fixed;
+  background-size: cover;
   padding: 20px 25px;
   margin: 100px;
-  border: 10px solid purple; 
+
+}
+
+header {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin: auto;
+  font-size: 40px;
+  color: rgba(120, 150, 200, 0.8);
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: green;
+  font-size: 24px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
 }
 
-
-ul {
+header nav ul {
 
   font-family: "Inconsolata";
   font-size: 14px;
-  color: turqoise;
   line-height: 20px;
+  text-align: auto;
+  padding: 20px;
 }
 
-li {
-  display: inline;
+
+
+p {
+  font-family: "Play";
+  font-size: 20px;
+  color: #B4EAAD;
+  line-height: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+
+nav {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 24px;
+}
+
+.planets {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-family: "Titillium", sans-serif;
+  color: aqua;
+}
+
+
+.moons {
+  display: block;
   font-family: "Titillium", sans-serif;
   font-size: 18px;
   color: red;
   line-height: 20px;
   float: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
 }
-
-p {
-
-  font-family: "Play";
-  font-size: 20px;
-  color: #B4EAAD;
-  line-height: 20px;
-}
-
-.active {
-  display: block;
-}
-
-.planets {
-  display inline-block;
-}
-
-
