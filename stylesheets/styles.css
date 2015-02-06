@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Play);
+
+body {
+  max-width: 900px;
+  font-color: red;
+  background-image: url("https://assets.rbl.ms/195304/980x.jpg");
+  padding: 20px 25px;
+  margin: 100px;
+  border: 10px solid purple; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: green;
+}
+
+
+ul {
+
+  font-family: "Inconsolata";
+  font-size: 14px;
+  color: turqoise;
+  line-height: 20px;
+}
+
+li {
+  font-family: "Titillium", sans-serif;
+  font-size: 18px;
+  color: red;
+  line-height: 20px
+  float: center;
+}
+
+p {
+  font-family: "Play";
+  font-size: 20px;
+  color: #B4EAAD;
+  line-height: 20px
+}
