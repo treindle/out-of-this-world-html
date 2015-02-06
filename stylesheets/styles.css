@@ -2,6 +2,10 @@
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 @import url(http://fonts.googleapis.com/css?family=Play);
 
+
+html {
+  /*set base font here */
+}
 body {
   max-width: 900px;
   font-color: red;
