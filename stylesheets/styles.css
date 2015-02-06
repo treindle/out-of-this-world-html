@@ -29,16 +29,28 @@ ul {
 }
 
 li {
+  display: inline;
   font-family: "Titillium", sans-serif;
   font-size: 18px;
   color: red;
-  line-height: 20px
+  line-height: 20px;
   float: center;
 }
 
 p {
+
   font-family: "Play";
   font-size: 20px;
   color: #B4EAAD;
-  line-height: 20px
+  line-height: 20px;
 }
+
+.active {
+  display: block;
+}
+
+.planets {
+  display inline-block;
+}
+
+
